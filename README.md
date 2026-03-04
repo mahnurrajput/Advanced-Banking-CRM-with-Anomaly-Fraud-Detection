@@ -1,4 +1,4 @@
-# 💳 Advanced Banking મનor CRM with Anomaly & Fraud Detection
+# 💳 Advanced expon Banking CRM with Anomaly & Fraud Detection
 
 A Data Warehousing and Business Intelligence project focused on building a scalable Banking CRM analytics system integrated with fraud and anomaly detection mechanisms.
 
@@ -9,7 +9,7 @@ FAST NUCES – 2025
 
 ## 🚨 Repository Access Notice
 
-> ⚠️ The complete implementation (ETL scripts, SQL schema, indexing strategies, and reports) is maintained in a **private repository**.
+> ⚠️ The complete technical implementation (ETL scripts, SQL schema, indexing strategies, and detailed reports) is maintained in a **private repository**.
 
 If you are a recruiter, academic reviewer, or collaborator and would like access:
 
@@ -19,7 +19,7 @@ Access is granted upon request.
 
 ---
 
-# 🏦 Project[…] Overview
+# 🏦 Project Overview
 
 This project simulates an enterprise-grade Banking CRM system using a Star Schema Data Warehouse architecture and Business Intelligence dashboards.
 
@@ -43,15 +43,15 @@ The system supports decision-making for:
 
 ### Fact Table
 **fact_transactions**
-- transaction_id (PK)
-- date_key (FK)
-- customer_key (FK)
-- card_key (FK)
-- merchant_key (FK)
-- mcc_key (FK)
-- amount
-- fraud_label
-- anomaly_flag
+- transactionotron transaction_id (PK)  
+- date_key (FK)  
+- customer_key (FK)  
+- card_key (FK)  
+- merchant_key (FK)  
+- mcc_key (FK)  
+- amount  
+- fraud_label  
+- anomaly_flag  
 
 ### Dimension Tables
 - dim_customer  
@@ -60,11 +60,7 @@ The system supports decision-making for:
 - dim_mcc  
 - dim_date  
 
----
-
-## 📊 Schema Diagram
-
-[View Star Schema Diagram (PDF)](docs/schema_diagram.pdf)
+📄 The complete Star Schema diagram is available inside this repository under the documentation section.
 
 ---
 
@@ -77,12 +73,12 @@ The system supports decision-making for:
 ### Transform
 - Data cleansing and null handling  
 - Surrogate key generation  
-- Derived anomaly flags (velocity checks, high-value spikes)  
+- Derived anomaly flags such as velocity checks and high-value spikes  
 - Customer profile enrichment  
 
 ### Load
 - Populated dimension tables  
-- Inserted structured transactions into fact table  
+- Inserted structured transactions into the fact table  
 - Applied fraud and anomaly indicators  
 
 **ETL Orchestration:** Apache Airflow  
@@ -100,7 +96,7 @@ The system supports decision-making for:
 
 ## Fraud & Anomaly Analytics
 - Fraud rate trends over time  
-- High-risk merchants & MCC categories  
+- High-risk merchants and MCC categories  
 - Velocity anomaly detection  
 - Geographical transaction anomalies  
 
@@ -108,20 +104,15 @@ The system supports decision-making for:
 
 # 📊 Power BI Dashboards
 
-### Key KPI Visualizations
+The repository includes dashboard screenshots demonstrating:
 
-- % Fraudulent Transactions (Daily / Weekly)  
-- Top 10 Risky Merchants  
-- Average Spend vs Fraud Likelihood  
-- Monthly Anomaly Alerts  
+- Fraud percentage trends  
+- Top risky merchants  
+- Average spend vs fraud likelihood  
+- Monthly anomaly alerts  
+- Customer segmentation insights  
 
----
-
-## Dashboard Preview
-
-![Fraud Analytics Dashboard](images/dashboard(1).png)
-
-![CRM Analytics Dashboard](images/dashboard(2).png)
+All dashboard previews are available within the repository folders.
 
 ---
 
@@ -141,7 +132,7 @@ The system supports decision-making for:
 |-------|------------|
 | Data Warehouse | Star Schema |
 | ETL Orchestration | Apache Airflow |
-| Data Processing |నం Python, SQL |
+| Data Processing | Python, SQL |
 | CRM Integration | Salesforce |
 | BI Layer | Power BI |
 | Database | SQL Server |
