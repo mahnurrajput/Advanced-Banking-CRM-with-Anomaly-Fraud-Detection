@@ -131,11 +131,9 @@ All dashboard previews are available within the repository folders.
 | Layer | Technology |
 |-------|------------|
 | Data Warehouse | Star Schema |
-| ETL Orchestration | Apache Airflow |
 | Data Processing | Python, SQL |
-| CRM Integration | Salesforce |
 | BI Layer | Power BI |
-| Database | SQL Server |
+| Database | PostgresSQL |
 
 ---
 
