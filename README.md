@@ -64,7 +64,7 @@ The system supports decision-making for:
 
 ## 📊 Schema Diagram
 
-📄 [View Star Schema Diagram (PDF)](docs/schema_diagram.pdf)
+[View Star Schema Diagram (PDF)](docs/schema_diagram.pdf)
 
 ---
 
@@ -119,9 +119,9 @@ The system supports decision-making for:
 
 ## Dashboard Preview
 
-![Fraud Analytics Dashboard](images/dashboard1.png)
+![Fraud Analytics Dashboard](images/dashboard(1).png)
 
-![CRM Analytics Dashboard](images/dashboard2.png)
+![CRM Analytics Dashboard](images/dashboard(2).png)
 
 ---
 
