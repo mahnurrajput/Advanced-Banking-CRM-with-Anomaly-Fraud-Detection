@@ -64,7 +64,7 @@ The system supports decision-making for both:
 
 ## 📊 Schema Diagram
 
-![Star Schema Diagram](images/schema-diagram/star_schema.png)
+![Star Schema Diagram](Docs/schema_diagram.pdf)
 
 ---
 
@@ -119,8 +119,8 @@ Data Transformation: **Python & SQL**
 
 ## Dashboard Preview
 
-![Dashboard 1](images/dashboard-screenshots/dashboard1.png)
-![Dashboard 2](images/dashboard-screenshots/dashboard2.png)
+![Dashboard 1](Images/dashboard (1).png)
+![Dashboard 2](Images/dashboard (2).png)
 
 ---
 
