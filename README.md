@@ -1,4 +1,4 @@
-# 💳 Advanced expon Banking CRM with Anomaly & Fraud Detection
+# 💳 Banking Transaction Analytics and Fraud Detection
 
 A Data Warehousing and Business Intelligence project focused on building a scalable Banking CRM analytics system integrated with fraud and anomaly detection mechanisms.
 
